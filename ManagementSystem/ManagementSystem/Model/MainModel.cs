@@ -10,13 +10,13 @@ namespace ManagementSystem.Model
     class MainModel : INotifyPropertyChanged
     {
 
-        private int num = 1;    
+        private int num = 2;    
 
         public int Num
         {
             set
-            { num = value;
-                Num2 = value * 2;
+            { 
+                this.num = value;
                 OnPropertyChanged("Num");
             }
             get
@@ -36,7 +36,6 @@ namespace ManagementSystem.Model
                 OnPropertyChanged("Num2");
             }   
         }
-
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
