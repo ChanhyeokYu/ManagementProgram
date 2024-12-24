@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace ManagementSystem
+namespace ManagementSystem.Core
 {
     internal class Command : ICommand
     {
@@ -14,8 +14,8 @@ namespace ManagementSystem
 
         public Command(Action<object> executeMehod, Func<object, bool> canExecuteMehod)
         {
-            this.ExecuteMehod = executeMehod;
-            this.CanExecuteMehod = canExecuteMehod;
+            ExecuteMehod = executeMehod;
+            CanExecuteMehod = canExecuteMehod;
         }
 
         public event EventHandler? CanExecuteChanged;

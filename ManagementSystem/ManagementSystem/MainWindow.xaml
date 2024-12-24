@@ -7,16 +7,76 @@
         xmlns:ViewModel="clr-namespace:ManagementSystem.ViewModel" x:Class="ManagementSystem.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <ViewModel:MainViewModel/>
+    </Window.DataContext>
     <Grid>
-        <Grid.DataContext>
-            <ViewModel:MainViewModel/>
-        </Grid.DataContext>
-        <Label Content="숫자 입력" HorizontalAlignment="Left" Margin="122,133,0,0" VerticalAlignment="Top"/>
-        <Label Content="숫자 결과" HorizontalAlignment="Left" Margin="554,133,0,0" VerticalAlignment="Top"/>
-        <Label Content="숫자 바꾸기" HorizontalAlignment="Center" Margin="0,51,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="93,164,0,0" TextWrapping="Wrap" Text="{Binding Model.Num,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="525,164,0,0" TextWrapping="Wrap" Text="{Binding Model.Num2,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
-        <Button Content="숫자 바꾸기" Command="{Binding btn_cmd}" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,0,347" Grid.RowSpan="2" HorizontalAlignment="Left" Width="800">
+            <Rectangle HorizontalAlignment="Center" Height="70" Stroke="Black" Fill ="Yellow" VerticalAlignment="Top" Width="420" Margin="0,7,0,0"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0 00 0 15" TextWrapping="Wrap" Text="종합병원 대기 시스템" VerticalAlignment="Center" FontSize="42"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <Border BorderBrush="LightGray" BorderThickness="2" Width="420">
+                <StackPanel>
+                    <DataGrid x:Name="DG1" Width="420" Height="255" ItemsSource="{Binding DV_1}"
+                              AutoGenerateColumns="False" CanUserAddRows="False"
+                              HorizontalAlignment="Center"
+                              FontSize="20"
+                              Margin="2,0">
+                        <DataGrid.RowStyle>
+                            <Style TargetType="{x:Type DataGridRow}">
+                                <Setter Property="Height" Value="60"/>
+                            </Style>
+                        </DataGrid.RowStyle>
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="호출번호" Width="100" FontSize="15" Binding="{Binding Path=No}" IsReadOnly="True">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="HorizontalAlignment" Value="Center" />
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Header="진료실" Width="130" FontSize="15" Binding="{Binding Path=Room}" IsReadOnly="True">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Header="성함" Width="190" FontSize="15" Binding="{Binding Path=Name}" IsReadOnly="True">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.RowSpan="1" Grid.Column="1">
+            <Rectangle Height="323" Fill="Black"
+                       RadiusX="2" RadiusY="2" VerticalAlignment="Bottom" Margin="0,0,0,-259"/>
+        </Grid>
     </Grid>
 </Window>
         
