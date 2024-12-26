@@ -18,6 +18,11 @@ namespace ManagementSystem.Core
             CanExecuteMehod = canExecuteMehod;
         }
 
+        public Command(Action<object> executeMehod)
+        {
+            ExecuteMehod = executeMehod;
+        }
+
         public event EventHandler? CanExecuteChanged;
 
         public bool CanExecute(object? parameter)

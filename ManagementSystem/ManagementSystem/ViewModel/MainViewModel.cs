@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ManagementSystem.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,11 +14,11 @@ namespace ManagementSystem.ViewModel
 {
     class MainViewModel : INotifyPropertyChanged
     {
-
         private Model.MainModel _model;
         private Core.Repo _repo;
         private System.Timers.Timer _timer;
         private string _connstring = @"Data Source=127.0.0.1;Initial Catalog=mydb;User ID=Admin;Password=1234;Encrypt=True;TrustServerCertificate=True;";
+        public Command btn { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -25,6 +26,7 @@ namespace ManagementSystem.ViewModel
         { 
             _model = new Model.MainModel();
             _repo = new Core.Repo(_connstring);
+            btn = new Command(DeleteDataSql);
 
             _timer = new System.Timers.Timer(1000);
             _timer.Elapsed += TmrMonitoring;
@@ -39,6 +41,11 @@ namespace ManagementSystem.ViewModel
         private void TmrMonitoring(object? sender, ElapsedEventArgs e)
         {
             DV_1 = _repo.GetData().Copy().DefaultView;
+        }
+
+        private void DeleteDataSql (object? obj)
+        {
+            _repo.DeleteData();
         }
 
         protected void OnPropertyChanged(string propertyName)

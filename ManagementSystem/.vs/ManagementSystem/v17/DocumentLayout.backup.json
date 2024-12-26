@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\CProject\\C#\\First\\ManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\core\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\core\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\model\\mainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\model\\mainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\core\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\core\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\core\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\core\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\model\\mainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\model\\mainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Repo.cs",
               "DocumentMoniker": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\Core\\Repo.cs",
               "RelativeDocumentMoniker": "ManagementSystem\\Core\\Repo.cs",
               "ToolTip": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\Core\\Repo.cs",
               "RelativeToolTip": "ManagementSystem\\Core\\Repo.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvxoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvzIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T15:23:05.322Z",
               "EditorCaption": ""
@@ -71,12 +71,11 @@
               "RelativeToolTip": "ManagementSystem\\ManagementSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-24T15:22:16.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T15:22:16.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "ManagementSystem\\AssemblyInfo.cs",
@@ -95,7 +94,7 @@
               "RelativeDocumentMoniker": "ManagementSystem\\Core\\Command.cs",
               "ToolTip": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\Core\\Command.cs",
               "RelativeToolTip": "ManagementSystem\\Core\\Command.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T13:59:17.328Z",
               "EditorCaption": ""
@@ -114,20 +113,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ManagementSystem\\ViewModel\\MainViewModel.cs",
               "ToolTip": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "ManagementSystem\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T06:22:57.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainModel.cs",
               "DocumentMoniker": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\Model\\MainModel.cs",
               "RelativeDocumentMoniker": "ManagementSystem\\Model\\MainModel.cs",
@@ -140,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ManagementSystem\\MainWindow.xaml",
@@ -152,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ManagementSystem\\MainWindow.xaml.cs",
