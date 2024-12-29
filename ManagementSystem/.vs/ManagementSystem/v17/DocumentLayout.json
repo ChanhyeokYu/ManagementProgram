@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\CProject\\C#\\First\\ManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\core\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\core\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|solutionrelative:managementsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{013638BA-824A-4EAD-846C-79B8BB22F5EC}|ManagementSystem\\ManagementSystem.csproj|d:\\cproject\\c#\\first\\managementsystem\\managementsystem\\core\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Repo.cs",
               "DocumentMoniker": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\Core\\Repo.cs",
               "RelativeDocumentMoniker": "ManagementSystem\\Core\\Repo.cs",
               "ToolTip": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\Core\\Repo.cs",
               "RelativeToolTip": "ManagementSystem\\Core\\Repo.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAADwvzIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAwFMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T15:23:05.322Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "ManagementSystem\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T14:15:26.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T14:15:26.393Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "ManagementSystem\\Core\\Command.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAADwvxYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T13:59:17.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T13:59:17.328Z"
             },
             {
               "$type": "Document",
@@ -113,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ManagementSystem\\ViewModel\\MainViewModel.cs",
@@ -121,8 +119,7 @@
               "RelativeToolTip": "ManagementSystem\\ViewModel\\MainViewModel.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAIwCoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:22:57.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T06:22:57.758Z"
             },
             {
               "$type": "Document",
@@ -134,12 +131,11 @@
               "RelativeToolTip": "ManagementSystem\\Model\\MainModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:22:46.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T06:22:46.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\CProject\\C#\\First\\ManagementSystem\\ManagementSystem\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ManagementSystem\\MainWindow.xaml",
@@ -159,8 +155,7 @@
               "RelativeToolTip": "ManagementSystem\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:20:10.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T06:20:10.598Z"
             }
           ]
         }
